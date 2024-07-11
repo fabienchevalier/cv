@@ -4,262 +4,171 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Fabien CHEVALIER
+    tagline: DevOps/SRE
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: contact@fchevalier.net
+    phone: +33 6 58 54 89 09
+    timezone:
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: fchevalier.net
+    linkedin: fabche
+    xing: 
+    github: fabienchevalier
     telegram: # add your nickname without '@' sign
-    gitlab:
+    gitlab: fabche
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: Télécharger au format PDF
 
     languages:
-      title: Languages
+      title: Langues
       info:
-        - idiom: English
-          level: Native
+        - idiom: Anglais
+          level: C1
 
         - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+          level: Langue maternelle
 
     interests:
-      title: Interests
+      title: Passions
       info:
-        - item: Climbing
+        - item: Musicien
           link:
 
-        - item: Snowboarding
+        - item: Vélo
           link:
 
-        - item: Cooking
+        - item: Cuisine
           link:
 
 career-profile:
-    title: Career Profile
+    title: Profil
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Passionné des technologies cloud et de tout ce qui touche à l’open-source en général, le partage me 
+      tient à coeur et j'aime prendre du temps pour aider les autres. 
+      J'ai eu l'occasion d'évoluer dans des environnements très variés, de la PME jusqu'aux clients du CAC40. 
+      J'ai ainsi pu acquérir une certaine expérience de travail dans des contextes aussi bien internationaux que locaux, 
+      en contact direct avec les clients ou en support aux côté des équipes de développement.
 education:
-    title: Education
+    title: Études/Diplômes
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Mastère DevOps & Cloud - Expert en Systèmes d'Information (RNCP34471/EU.7)
+        university: Sup de Vinci
+        time: 2023 - 2025
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+            - Manager, superviser et sécuriser des Systèmes d’Information
+            - Manager et piloter le développement, la maintenance et l’évolution des plateformes logicielles
+            - Manager des projets d’équipe
+      - degree: Bachelor Système, Réseau, Cloud (RNCP38478 – NSF 326)
+        university: Sup de Vinci
+        time: 2022 - 2023
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - Administrer la mise en oeuvre du projet informatique. 
+            - Maintenir le système informatique en condition opérationnelle optimale.
+            - Faire évoluer le système informatique.
+      - degree: BTS SIO (Services Informatiques aux Organisations)
+        university: H3 Campus
+        time: 2020 - 2022
+        details: |
+            - Administrer la mise en oeuvre du projet informatique. 
+            - Maintenir le système informatique en condition opérationnelle optimale.
+            - Faire évoluer le système informatique.
 
 experiences:
-    title: Experiences
+    title: Expériences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Ingénieur DevOps
+        time: 2023 - 2024
+        company: Unibail Rodamco Westfield (Claranet France)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+            - Lift and shift d'infrastructures AWS des US vers l'Europe
+            - Reprise du run sur les projets cloud Europe
+            - Participation et élaboration d'une réponse à appel d'offre pour un projet de migration AWS vers GCP
+            - Collaboration avec les équipes de développement ; CI/CD et industrialisation
+            - Mise en place d'une pipeline CI/CD permettant la génération de documentation Terraform de façon automatique
+      - role: Ingénieur DevOps
+        time: 2022 - 2023
+        company: Air Liquide (Claranet France)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+            - Participation au projet Omnichannel : réalisation d'un ETL
+            - Mise en place d'une architecture serverless permettant l'utilisation de DocuSign pour la signature électronique de documents internes
+            - Réalisation d'une solution applicative d'interconnexion entre l'ITSM Claranet et l'ITSM Air Liquide (Python/Serverless)
+      - role: Administrateur Système & Réseaux
+        time: 2020 - 2022
+        company: NS2B
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Infogérance de SI on-premises et cloud, destinés à des PME et cabinets comptables. J'ai aussi eu l'occasion d'apporter
+          mon expertise sur des projets de migration de SI on-premises vers le cloud. 
+            - Administration de grappes de serveurs Hyper-V (maintenance, migration, gestion panne et incidents) 
+            - Audits informatiques, conseils en optimisation du SI
+            - Déploiement et maintenance de la solution applicative comptable Sage Génération Experts (serveur/monoposte)
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    title: Certifications
+    list:
+      - name: AWS Certified Cloud Practitioner
+        start: 2022
+        end: 2025
+        organization: Amazon Web Services
+        credentialid: Cloud Practitioner
+        credentialurl: https://www.credly.com/badges/804e6e5d-0308-435d-be25-4b55efa96544/linked_in_profile
+        credentialname: Credly
+        details: |
+          Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. 
+          They demonstrated cloud fluency and foundational AWS knowledge. 
+          Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.
+          
+      
+      - name: "CCNA: Switching, Routing, and Wireless Essentials"
+        start: 2022
+        end:
+        organization: Cisco Networking Academy
+        credentialid: CCNA
+        credentialurl: https://www.credly.com/badges/f5b419eb-3021-4adf-baca-ff194e1c4916/public_url
+        credentialname: Credly
+        details: |
+          Cisco verifies the earner of this badge successfully completed the Switching, Routing, and Wireless Essentials course and achieved this student level credential. 
+          The earner has a foundation in switching operations, wired and wireless LAN configuration using security best practices, redundancy protocols, and developed problem-solving skills. 
+          Earner participated in up to 45 practice activities and accumulated up to 21 hours of hands-on labs using Cisco hardware and/or the Cisco Packet Tracer tool.
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Compétences
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Agile/Scrum
+        level: 100%
+      - name: Terraform/Terragrunt
+        level: 100%
+      - name: CloudFormation
+        level: 100%
+      - name: GitLab/GitHub (CI/CD)
+        level: 100%
+      - name: Jenkins
         level: 95%
-
-      - name: Ruby on Rails
+      - name: AWS
+        level: 95%
+      - name: Ansible
+        level: 90%
+      - name: Python
+        level: 89%
+      - name: GCP
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Azure
+        level: 85%
+      - name: Golang
+        level: 80%
+      - name: Kubernetes
+        level: 75%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> - &copy; 2024 Fabien CHEVALIER
