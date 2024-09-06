@@ -95,20 +95,20 @@ experiences:
             - Reprise du run sur les projets cloud Europe
             - Participation et élaboration d'une réponse à appel d'offre pour un projet de migration AWS vers GCP
             - Collaboration avec les équipes de développement ; CI/CD et industrialisation
-            - Mise en place d'une pipeline CI/CD permettant la génération de documentation Terraform de façon automatique
+            - Build et run de briques d'infrastructures cloud sur GCP (CloudRun/Terragrunt/GitHub Actions)
       - role: Ingénieur DevOps
         time: 2022 - 2023
         company: Air Liquide (Claranet France)
         details: |
-            - Participation au projet Omnichannel : réalisation d'un ETL
-            - Mise en place d'une architecture serverless permettant l'utilisation de DocuSign pour la signature électronique de documents internes
+            - MCO sur une infrastructure industrialisée dans le cloud AWS (CloudFormation, Ansible, ECS, Beanstalk)
+            - Build et run de briques d'infrastructures cloud sur AWS (CloudFormation, Jenkins, Ansible)
             - Réalisation d'une solution applicative d'interconnexion entre l'ITSM Claranet et l'ITSM Air Liquide (Python/Serverless)
       - role: Administrateur Système & Réseaux
         time: 2020 - 2022
         company: NS2B
         details: |
-          Infogérance de SI on-premises et cloud, destinés à des PME et cabinets comptables. J'ai aussi eu l'occasion d'apporter
-          mon expertise sur des projets de migration de SI on-premises vers le cloud. 
+          Infogérance de SI on-premises et cloud, destinés à des PME et cabinets comptables. Environnement majoritairement sous Windows Server.
+          J'ai aussi eu l'occasion d'apporter mon expertise sur des projets de migration de SI on-premises vers le cloud (OVH)
             - Administration de grappes de serveurs Hyper-V (maintenance, migration, gestion panne et incidents) 
             - Audits informatiques, conseils en optimisation du SI
             - Déploiement et maintenance de la solution applicative comptable Sage Génération Experts (serveur/monoposte)
