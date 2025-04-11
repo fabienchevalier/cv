@@ -14,9 +14,7 @@ sidebar:
 
     # Sidebar links
     email: contact@fchevalier.net
-    #phone: +33 6 58 54 89 09
-    timezone:
-    citizenship:
+    location: Paris, France
     website: fchevalier.net
     linkedin: fabche
     xing: 
@@ -34,7 +32,7 @@ sidebar:
       title: Langues
       info:
         - idiom: Anglais
-          level: C1
+          level: Courant (C1)
 
         - idiom: French
           level: Langue maternelle
@@ -112,6 +110,23 @@ experiences:
             - Administration de grappes de serveurs Hyper-V (maintenance, migration, gestion panne et incidents) 
             - Audits informatiques, conseils en optimisation du SI
             - Déploiement et maintenance de la solution applicative comptable Sage Génération Experts (serveur/monoposte)
+
+projects:
+    title: Projets réalisés
+    assignments:
+        - title : E-commerce Astronomy Website
+          link: https://gitlab.com/sdv9972401/e-commerce-astronomy-website
+          tagline: Mise en place d'un site web type e-commerce (WordPress) sur AWS de façon totalement industrialisée sur le cloud AWS.
+        - title : CI/CD, Kubernetes & Terraform
+          link: https://gitlab.com/projet-cicd-m2-do
+          tagline: GitLab CI et ArgoCD, exemples de déploiements Kubernetes sur AKS et K3D (simulation on-premise).
+        - title: Casdoor CLI
+          link : https://gitlab.com/sdv9972401/casdoor-cli
+          tagline: Conception d'un outil en CLI pour interagir avec le service Casdoor (middleware d'authentification), développé en Go.
+        - title: fchevalier.net
+          link: https://fchevalier.net
+          tagline: Site web personnel, basé sur le framework Hugo, hébergé sur GitHub Pages.
+
 
 certifications:
     title: Certifications
