@@ -119,7 +119,7 @@ projects:
           tagline: Mise en place d'un site web type e-commerce (WordPress) sur AWS de façon totalement industrialisée sur le cloud AWS.
         - title : CI/CD, Kubernetes & Terraform
           link: https://gitlab.com/projet-cicd-m2-do
-          tagline: GitLab CI et ArgoCD, exemples de déploiements Kubernetes sur AKS et K3D (simulation on-premise).
+          tagline: GitLab CI et ArgoCD, exemples de déploiements Kubernetes sur AKS et K3S (simulation on-premise).
         - title: Casdoor CLI
           link : https://gitlab.com/sdv9972401/casdoor-cli
           tagline: Conception d'un outil en CLI pour interagir avec le service Casdoor (middleware d'authentification), développé en Go.
