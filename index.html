@@ -1,23 +1,152 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="fr">
 
+<head>
+    <meta charset="UTF-8">
+    <title>Mon CV</title>
+    <!-- Import de la police Inter depuis Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap" rel="stylesheet">
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            font-family: 'Inter', Arial, sans-serif;
+        }
 
-{% include career-profile.html %}
+        .header {
+            width: 100vw;
+            height: 64px;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+        .logo {
+            height: 48px;
+            margin-left: 24px;
+        }
 
-{% include experiences.html %}
+        .header-actions {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-right: 24px;
+        }
 
-{% include certifications.html %}
+        .download-link {
+            background: #8f43ea;
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            letter-spacing: 0.02em;
+            box-shadow: 0 2px 8px rgba(143, 67, 234, 0.08);
+            transition: background 0.2s, box-shadow 0.2s;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            font-family: 'Inter', Arial, sans-serif;
+            display: inline-block;
+        }
 
-{% include projects.html %}
+        .download-link:hover,
+        .download-link:focus {
+            background: #6d28d9;
+            box-shadow: 0 4px 16px rgba(143, 67, 234, 0.16);
+        }
 
-{% include oss-contributions.html %}
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            background: none;
+            border: none;
+            color: #8f43ea;
+            font-weight: 500;
+            font-size: 1rem;
+            text-decoration: none;
+            border-radius: 999px;
+            padding: 8px 18px;
+            transition: background 0.18s, color 0.18s;
+            font-family: 'Inter', Arial, sans-serif;
+            gap: 6px;
+        }
 
-{% include publications.html %}
+        .back-link:hover,
+        .back-link:focus {
+            background: #f3eaff;
+            color: #6d28d9;
+            text-decoration: underline;
+        }
 
-{% include skills.html %}
+        .back-link .arrow {
+            font-size: 1.15em;
+            margin-right: 2px;
+            /* Utilisation d'un caractère Unicode pour la flèche gauche */
+        }
 
+        .pdf-container {
+            width: 100vw;
+            height: calc(100vh - 64px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        iframe {
+            width: 80vw;
+            height: 90vh;
+            border: none;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            background: #fff;
+        }
+
+        @media (max-width: 800px) {
+            iframe {
+                width: 98vw;
+                height: 75vh;
+            }
+
+            .logo {
+                height: 36px;
+                margin-left: 8px;
+            }
+
+            .header-actions {
+                gap: 6px;
+                margin-right: 8px;
+            }
+
+            .download-link,
+            .back-link {
+                padding: 8px 10px;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Logo" class="logo">
+        <div class="header-actions">
+            <a class="back-link" href="https://fchevalier.net">
+                <span class="arrow">&#8592;</span> Retour vers fchevalier.net
+            </a>
+            <a class="download-link" href="cv.pdf" download>Télécharger le CV (PDF)</a>
+        </div>
+    </div>
+    <div class="pdf-container">
+        <iframe src="cv.pdf"></iframe>
+    </div>
+</body>
+
+</html>
